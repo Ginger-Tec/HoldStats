@@ -6,9 +6,8 @@ from page.self_pre_hud import self_pre_hud
 
 pages = {
     "hold'em": [
-        st.Page(hold_stats, title="Hold Stats", icon="🎰"),
-        st.Page(self_hud, title="SELF HUD", icon="🃏"),
-        st.Page(self_pre_hud, title="SELF Pre HUD", icon="🃏"),
+        st.Page(hold_stats, title="Hold Stats", icon="⏯️"),
+        st.Page(self_pre_hud, title="Self Pre HUD", icon="✏️"),
     ],
 }
 
